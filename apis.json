@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - HERE",
+	"description": "This is a repository of here APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/here.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://here.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "HERE",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/here/master/_listings/here/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "HERE",
+	"include": [
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/here/master/_listings/here/apis.yaml"
+		}
+	]
+}
